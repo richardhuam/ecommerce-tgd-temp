@@ -1,0 +1,50 @@
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 600px)  {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+  }
+}
+
+/* React Collapse */
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
+
+/* Swiper Pagination */
+.swiper-custom-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #8c8c8d !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #115e59 !important;
+}
+
+.inset-top-center {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

@@ -1,0 +1,1 @@
+export const DEFAULT_GET_ORDERS_LIMIT = 8;

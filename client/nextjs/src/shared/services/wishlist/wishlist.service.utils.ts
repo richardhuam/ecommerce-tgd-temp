@@ -1,0 +1,1 @@
+export const DEFAULT_GET_WISHLIST_LIMIT = 8;
